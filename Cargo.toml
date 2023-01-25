@@ -1,0 +1,18 @@
+[package]
+name = "mdl"
+version = "1.0.5"
+authors = ["Daniel García Moreno <danigm@wadobo.com>"]
+description = "Data model library to share app state between threads and process and persist the data in the filesystem. Implements a simple way to store structs instances in a LMDB database and other methods like BTreeMap"
+keywords = ["lmdb", "model", "data", "state"]
+license = "GPL-3.0"
+exclude = ["/dumpdb.py"]
+edition = "2018"
+
+repository = "https://gitlab.gnome.org/danigm/mdl"
+readme = "README.md"
+
+[dependencies]
+lmdb = "0.8.0"
+anyhow = "1.0.32"
+bincode = "1.0.1"
+serde = { version = "1.0.79", features = ["derive"] }

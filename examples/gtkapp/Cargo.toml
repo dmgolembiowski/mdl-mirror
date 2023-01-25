@@ -1,0 +1,16 @@
+[package]
+name = "gtkapp"
+version = "0.1.0"
+authors = ["Daniel García Moreno <danigm@wadobo.com>"]
+
+[dependencies]
+serde_derive = "1.0.70"
+serde = "1.0.70"
+lazy_static = "1.0.2"
+
+[dependencies.gtk]
+features = ["v3_22"]
+version = "0.4.1"
+
+[dependencies.mdl]
+path = "../../"

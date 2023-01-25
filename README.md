@@ -1,3 +1,7 @@
+Disclaimer:
+This repository is a readonly mirror of the source at https://gitlab.gnome.org/danigm/mdl
+by Daniel Garcia Moreno and friends of the Gnome project
+
 App state library with cache
 
 This crate provides functionality to store data and persists to filesystem
